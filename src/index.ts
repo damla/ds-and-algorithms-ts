@@ -8,6 +8,9 @@ import Queue from './Queue/Queue'
 import BinaryTree from './Trees/BinaryTree'
 import AVLTree from './Trees/AVLTree'
 
+import MaxHeap from './Heaps/MaxHeap'
+import MinHeap from './Heaps/MinHeap'
+
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
 mySinglyLinkedList.append(10)
@@ -76,3 +79,15 @@ console.log('AVT Tree Preorder Traversal: ', preorderResult)
 // Postorder Traversal
 const postorderResult = avlTree.postorderTraversal(avlTree.root)
 console.log('AVT Tree Postorder Traversal: ', postorderResult)
+
+const maxHeap = new MaxHeap()
+maxHeap.insert(10)
+maxHeap.insert(20)
+maxHeap.insert(5)
+console.log('Max Heap remove max: ', maxHeap.removeMax())
+
+const minHeap = new MinHeap()
+minHeap.insert(10)
+minHeap.insert(20)
+minHeap.insert(5)
+console.log('Min Heap remove min: ', minHeap.removeMin())
