@@ -12,6 +12,7 @@ import MaxHeap from './Heaps/MaxHeap'
 import MinHeap from './Heaps/MinHeap'
 
 import HashTable from './HashTable/HashTable'
+import Graph from './Graphs/Graph'
 
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
@@ -106,3 +107,19 @@ hashTable.remove('key2') // Delete key2 using the remove method
 console.log('Hash Table get key2 after removal: ', hashTable.get('key2')) // Output: undefined
 
 hashTable.print() // Print the contents of the hash table
+
+const myGraph = new Graph()
+myGraph.addVertex(1)
+myGraph.addVertex(2)
+myGraph.addVertex(3)
+myGraph.addVertex(4)
+myGraph.addVertex(5)
+myGraph.addEdge(1, 2)
+myGraph.addEdge(1, 3)
+myGraph.addEdge(2, 4)
+myGraph.addEdge(2, 5)
+
+console.log('Graph BFS Traversal starting from vertex 1: ', myGraph.bfs(1)) // Output: [1, 2, 3, 4, 5]
+console.log('Graph DFS Traversal starting from vertex 1: ', myGraph.dfs(1)) // Output: [1, 3, 2, 5, 4]
+
+myGraph.print() // Output the adjacency list of the graph

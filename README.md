@@ -33,12 +33,12 @@
   - Understand min-heaps and max-heaps, and how to insert and delete elements.
   - Implement a Heap class in TypeScript.
 
-- [ ] **Hash Tables:**
+- [x] **Hash Tables:**
 
   - Learn about hashing, collision resolution strategies.
   - Create a Hash Table class in TypeScript.
 
-- [ ] **Graphs:**
+- [x] **Graphs:**
   - Understand different representations of graphs (adjacency matrix, adjacency list) and basic graph algorithms.
   - Implement graph representation and traversal algorithms in TypeScript.
 
