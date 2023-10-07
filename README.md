@@ -5,15 +5,15 @@
    - Understand how arrays work, how to access, insert, and delete elements.
    - TypeScript allows you to work with arrays easily, e.g., `let arr: number[] = [1, 2, 3];`
 
-- [ ] **Linked Lists:** 
+- [x] **Linked Lists:** 
    - Learn about singly and doubly linked lists, how to insert, delete, and traverse them.
    - Implementing a linked list class in TypeScript can be a good exercise.
 
-- [ ] **Stacks:**
+- [x] **Stacks:**
    - Understand the LIFO (Last In First Out) principle.
    - Create a Stack class in TypeScript with methods like push, pop, peek.
 
-- [ ] **Queues:**
+- [x] **Queues:**
    - Understand the FIFO (First In First Out) principle.
    - Implement a Queue class in TypeScript with methods like enqueue, dequeue.
 

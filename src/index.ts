@@ -3,6 +3,7 @@ import DoublyLinkedList from './LinkedList/DoublyLinkedList'
 import CircularLinkedList from './LinkedList/CircularLinkedList'
 
 import Stack from './Stack/Stack'
+import Queue from './Queue/Queue'
 
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
@@ -35,6 +36,11 @@ const stack = new Stack()
 stack.push(10)
 stack.push(20)
 stack.push(30)
-stack.print() // Output: 10 20 30
-console.log("Stack peek: ", stack.peek()) // Output: 30
+console.log('Stack peek: ', stack.peek()) // Output: 30
 stack.print() // Output: 10 20
+
+const queue = new Queue()
+queue.enqueue(10)
+queue.enqueue(20)
+queue.enqueue(30)
+queue.print() // Output: 20 30
