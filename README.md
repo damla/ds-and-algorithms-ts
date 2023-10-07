@@ -1,7 +1,7 @@
 ## Data Structures and Algorithms
 
 ### Fundamental Data Structures:
-- [ ] **Arrays:** 
+- [x] **Arrays:** 
    - Understand how arrays work, how to access, insert, and delete elements.
    - TypeScript allows you to work with arrays easily, e.g., `let arr: number[] = [1, 2, 3];`
 
