@@ -72,7 +72,7 @@ class DoublyLinkedList {
       }
       current = current.next
     }
-    console.log(output)
+    console.log('Doubly Linked List: ',output)
   }
 }
 

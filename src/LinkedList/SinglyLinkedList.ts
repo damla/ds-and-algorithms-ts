@@ -104,7 +104,7 @@ class SinglyLinkedList {
       }
       current = current.next
     }
-    console.log(output) // Log the accumulated string to the console
+    console.log('Singly Linked List: ', output) // Log the accumulated string to the console
   }
 }
 
