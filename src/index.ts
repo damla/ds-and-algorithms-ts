@@ -5,6 +5,8 @@ import CircularLinkedList from './LinkedList/CircularLinkedList'
 import Stack from './Stack/Stack'
 import Queue from './Queue/Queue'
 
+import BinaryTree from './Trees/BinaryTree'
+
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
 mySinglyLinkedList.append(10)
@@ -44,3 +46,13 @@ queue.enqueue(10)
 queue.enqueue(20)
 queue.enqueue(30)
 queue.print() // Output: 20 30
+
+// Usage:
+const myBinaryTree = new BinaryTree()
+myBinaryTree.insert(10)
+myBinaryTree.insert(20)
+myBinaryTree.insert(5)
+
+console.log('Binary Tree inorder: ', myBinaryTree.inOrder())
+console.log('Binary Tree preorder: ', myBinaryTree.preOrder())
+console.log('Binary Tree postorder: ', myBinaryTree.postOrder())
