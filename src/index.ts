@@ -2,6 +2,8 @@ import SinglyLinkedList from './LinkedList/SinglyLinkedList'
 import DoublyLinkedList from './LinkedList/DoublyLinkedList'
 import CircularLinkedList from './LinkedList/CircularLinkedList'
 
+import Stack from './Stack/Stack'
+
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
 mySinglyLinkedList.append(10)
@@ -28,3 +30,11 @@ console.log(
   'Search for value 15 in the Doubly Linked List:',
   node ? node.value : null
 )
+
+const stack = new Stack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+stack.print() // Output: 10 20 30
+console.log("Stack peek: ", stack.peek()) // Output: 30
+stack.print() // Output: 10 20
