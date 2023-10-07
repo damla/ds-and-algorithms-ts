@@ -6,6 +6,7 @@ import Stack from './Stack/Stack'
 import Queue from './Queue/Queue'
 
 import BinaryTree from './Trees/BinaryTree'
+import AVLTree from './Trees/AVLTree'
 
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
@@ -47,12 +48,31 @@ queue.enqueue(20)
 queue.enqueue(30)
 queue.print() // Output: 20 30
 
-// Usage:
-const myBinaryTree = new BinaryTree()
-myBinaryTree.insert(10)
-myBinaryTree.insert(20)
-myBinaryTree.insert(5)
+const binaryTree = new BinaryTree()
+binaryTree.insert(10)
+binaryTree.insert(20)
+binaryTree.insert(5)
 
-console.log('Binary Tree inorder: ', myBinaryTree.inOrder())
-console.log('Binary Tree preorder: ', myBinaryTree.preOrder())
-console.log('Binary Tree postorder: ', myBinaryTree.postOrder())
+console.log('Binary Tree inorder: ', binaryTree.inOrder())
+console.log('Binary Tree preorder: ', binaryTree.preOrder())
+console.log('Binary Tree postorder: ', binaryTree.postOrder())
+
+const avlTree = new AVLTree()
+avlTree.insert(30)
+avlTree.insert(20)
+avlTree.insert(40)
+avlTree.insert(10)
+avlTree.insert(25)
+avlTree.insert(35)
+avlTree.insert(50)
+// Inorder Traversal
+const inorderResult = avlTree.inorderTraversal(avlTree.root)
+console.log('AVT Tree Inorder Traversal: ', inorderResult)
+
+// Preorder Traversal
+const preorderResult = avlTree.preorderTraversal(avlTree.root)
+console.log('AVT Tree Preorder Traversal: ', preorderResult)
+
+// Postorder Traversal
+const postorderResult = avlTree.postorderTraversal(avlTree.root)
+console.log('AVT Tree Postorder Traversal: ', postorderResult)
