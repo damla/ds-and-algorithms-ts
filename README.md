@@ -1,6 +1,6 @@
-## Data Structures and Algorithms
+# Data Structures and Algorithms
 
-### Fundamental Data Structures:
+## Fundamental Data Structures
 
 - [x] **Arrays:**
 
@@ -18,10 +18,11 @@
   - Create a Stack class in TypeScript with methods like push, pop, peek.
 
 - [x] **Queues:**
+
   - Understand the FIFO (First In First Out) principle.
   - Implement a Queue class in TypeScript with methods like enqueue, dequeue.
 
-### Advanced Data Structures:
+## Advanced Data Structures
 
 - [ ] **Trees:**
 
@@ -39,16 +40,20 @@
   - Create a Hash Table class in TypeScript.
 
 - [x] **Graphs:**
+
   - Understand different representations of graphs (adjacency matrix, adjacency list) and basic graph algorithms.
   - Implement graph representation and traversal algorithms in TypeScript.
 
-## Algorithms:
+## Algorithms
 
-- [ ] **Sorting and Searching Algorithms:**
+- [x] **Sorting and Searching Algorithms:**
 
   - Study and implement common algorithms like QuickSort, MergeSort, Binary Search in TypeScript.
 
 - [ ] **Dynamic Programming and Divide-and-Conquer Algorithms:**
+
   - Understand the principles behind these algorithmic paradigms and solve problems using them.
+
 - [ ] **Graph Algorithms:**
+
   - Implement Breadth-first Search, Depth-first Search, and Dijkstra’s algorithm in TypeScript.
