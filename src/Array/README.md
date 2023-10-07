@@ -1,6 +1,5 @@
 ## Adding elements:
 
-
 `numbers.push(6); ` 
  Adds new elements at the end of an array.
 
