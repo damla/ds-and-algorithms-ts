@@ -1,4 +1,4 @@
-import SinglyLinkedList from './SinglyLinkedList'
+import SinglyLinkedList from './LinkedList/SinglyLinkedList'
 
 const myList = new SinglyLinkedList()
 myList.append(5)
