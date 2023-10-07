@@ -11,6 +11,8 @@ import AVLTree from './Trees/AVLTree'
 import MaxHeap from './Heaps/MaxHeap'
 import MinHeap from './Heaps/MinHeap'
 
+import HashTable from './HashTable/HashTable'
+
 const mySinglyLinkedList = new SinglyLinkedList()
 mySinglyLinkedList.append(5)
 mySinglyLinkedList.append(10)
@@ -91,3 +93,16 @@ minHeap.insert(10)
 minHeap.insert(20)
 minHeap.insert(5)
 console.log('Min Heap remove min: ', minHeap.removeMin())
+
+const hashTable = new HashTable()
+hashTable.put('key1', 100) // Insert key-value pairs using the put method
+hashTable.put('key2', 200)
+hashTable.put('key3', 300)
+
+console.log('Hash Table get key2: ', hashTable.get('key2')) // Output: 200, use the get method to retrieve values
+console.log('Hash Table get key4: ', hashTable.get('key4')) // Output: undefined
+
+hashTable.remove('key2') // Delete key2 using the remove method
+console.log('Hash Table get key2 after removal: ', hashTable.get('key2')) // Output: undefined
+
+hashTable.print() // Print the contents of the hash table
